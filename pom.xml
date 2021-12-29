@@ -16,6 +16,8 @@
 		<surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
 		<nexus.staging.maven.plugin>1.6.8</nexus.staging.maven.plugin>
 		<maven.gpg.plugin>1.6</maven.gpg.plugin>
+		<apache.poi.ooxml>4.1.2</apache.poi.ooxml>
+		<commons.io.version>2.7</commons.io.version>
 	</properties>
 	<licenses>
 		<license>
@@ -39,6 +41,16 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml</artifactId>
+		    <version>${apache.poi.ooxml}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io.version}</version>
 		</dependency>
 	</dependencies>
 	<profiles>
