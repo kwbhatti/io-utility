@@ -1,4 +1,4 @@
-package com.chimpcentral;
+package com.chimpcentral.io;
 
 import java.io.File;
 import java.io.FileNotFoundException;

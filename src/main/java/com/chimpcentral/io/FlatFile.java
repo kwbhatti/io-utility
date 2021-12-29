@@ -1,4 +1,4 @@
-package com.chimpcentral;
+package com.chimpcentral.io;
 
 import java.io.FileReader;
 import java.io.IOException;

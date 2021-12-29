@@ -4,14 +4,11 @@ import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
-import com.chimpcentral.ExcelFile;
-import com.chimpcentral.FileStatus;
-import com.chimpcentral.FlatFile;
-import com.chimpcentral.Folder;
-//import com.chimpcentral.NinjaFile;
-//import com.chimpcentral.Folder.FolderStatus;
-//import com.chimpcentral.NinjaFile.FileStatus;
-import com.chimpcentral.FolderStatus;
+import com.chimpcentral.io.ExcelFile;
+import com.chimpcentral.io.FileStatus;
+import com.chimpcentral.io.FlatFile;
+import com.chimpcentral.io.Folder;
+import com.chimpcentral.io.FolderStatus;
 
 public class TestingFiles {
 	

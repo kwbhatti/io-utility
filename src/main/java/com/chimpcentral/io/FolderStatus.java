@@ -1,4 +1,4 @@
-package com.chimpcentral;
+package com.chimpcentral.io;
 
 public enum FolderStatus {
 	NEW,
